@@ -1,0 +1,96 @@
+body {
+  font-family: "Special Elite", cursive;
+  background-color: #ffeaa7;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  max-width: 1000px;
+  min-width: 400px;
+  border-radius: 20px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 50px;
+  background-color: cornsilk;
+  box-shadow: 0 24px 28px 0 rgba(0, 0, 0, 0.2),
+    0 26px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.heading h1 {
+  font-size: 2rem;
+  background-color: burlywood;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 4px 8px 0 #ffd0a3, 0 6px 20px 0 #ffd0a3;
+  display: inline;
+  align-items: center;
+}
+
+.form {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.form input {
+  width: 70%;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  border: transparent;
+  background-color: transparent;
+  border-bottom: solid 1px;
+  border-radius: 0.2rem;
+  padding: 0.7rem;
+}
+
+.form button {
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline;
+  border-radius: 5px;
+  color: burlywood;
+  font-size: 50px;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  justify-items: start;
+  text-decoration: underline;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.list button {
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: transparent;
+  color: burlywood;
+  cursor: pointer;
+}
